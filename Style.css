@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.text-style{
+    font-size: 30px;
+    font-weight: bold;
+}
+.list-style{
+    display: flex;
+    list-style-type: none;
+}
+.list-style li{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.list-style li:first-child{
+    margin-left: 0;
+}
+.list-style li:last-child{
+    margin-right: 0;
+}
+.list-style li a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+.frontend-developer{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.frontend-developer .title{
+    font-size: 50px;
+    justify-content: center;
+    display: flex;
+}
+.frontend-developer .description{
+    justify-content: center;
+    display: flex;
+    color: darkgrey;
+}
+.body-box{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.body-box .project{
+    min-width: 30%;
+}
+
+.body-box .name{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 15px;
+    padding-top:15px;
+}
+.body-box .content{
+    margin-top: 15px;
+}
+.body-box .content .list-project{
+    list-style-type: none;
+    font-size: 18px;
+    padding: 0;
+}
+.list-project li{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    min-height: 50px;
+    padding-left: 15px;
+}
+
+.list-project li:last-child{
+    border: 0;
+}
+
+.body-box .education{
+    min-width: 30%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.body-box .education .name{
+    margin-left: 0;
+}
+.education .content{
+    margin-bottom: 15px;
+    white-space: normal;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+.education .course .course-intro{
+    font-size: 18px;
+}
+.education .course .course-name .list-course{
+    font-size: 18px;
+    }
+.education .course .course-name .list-course li{
+    margin-top: 10px;
+}
+.work{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    min-width: 40%;
+}
+.work .work-experience{
+    padding: 15px;
+    border-bottom: 1px solid black;
+    min-height: 50%;
+}
+.work .title{
+    font-size: 20px;
+    font-weight:600;
+}
+.work .work-experience .content .roadmap{
+    font-size: 18px;
+}
+.work .work-experience .content .job{
+    font-size: 18px;
+    padding-top: 10px;
+}
+.work .profile{
+    font-size: 18px;
+    padding-top: 10px;
+}
+.work .profile a{
+    color: blue;
+}
+.opensource-work{
+    padding: 15px;
+}
+.opensource-work .paragraph{
+    font-size: 18px;
+    padding-top: 10px;
+}
+.container-end{
+    padding: 20px;
+}
+.container-end .title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.reviews{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+.reviews .review{
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-left: 20px;
+    min-width: 30%;
+}
+.review .review-content{
+    padding: 30px;
+}
+.review .review-content .text{
+    font-size: 20px;
+    text-wrap: wrap;
+}
+.review .review-content .teacher{
+    margin-top: 15px;
+}
+.review .review-content .teacher .teacher-name{
+    color: lightgray;
+    font-size: 20px;
+}
+.review .review-content .teacher .position{
+    color: lightgray;
+    font-size: 20px;
+}
